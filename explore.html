@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>道歉广场 - IAmSorry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">IAmSorry</div>
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="explore.html" class="active">广场</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="search">
+            <input type="text" id="search-input" placeholder="搜索名字或内容...">
+            <button id="search-btn">搜索</button>
+        </section>
+        
+        <section class="apology-list" id="apology-list">
+            <!-- 卡片会通过JS动态加载 -->
+            <div class="loading">加载中...</div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
